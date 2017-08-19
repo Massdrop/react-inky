@@ -30,8 +30,10 @@
   "homepage": "https://github.com/gakimball/react-inky#readme",
   "dependencies": {
     "classnames": "^2.2.5",
-    "react": "^15.3.2",
     "react-attrs-filter": "^0.1.2"
+  },
+  "peerDependencies": {
+    "react": "^15.2.0"
   },
   "devDependencies": {
     "babel-cli": "6.18.0",
@@ -42,8 +44,6 @@
     "chai-enzyme": "^0.5.1",
     "chai-html": "^1.1.0",
     "enzyme": "^2.4.1",
-    "mocha": "^3.0.2",
-    "react-dom": "^15.3.2",
-    "react-server": "^0.4.7"
+    "mocha": "^3.0.2"
   }
 }
